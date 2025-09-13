@@ -1,0 +1,43 @@
+.Shopping-by-category {
+  width: 100%;
+  height: 50px;
+
+  h1 {
+    font-family: yekan;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+  }
+}
+.sbc {
+  width: 100%;
+  height: 330px;
+  .sbc-center {
+    width: 1300px;
+    height: 100%;
+
+    margin: 30px auto;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 13px;
+
+      
+      font-family: yekan;
+      height: calc((100% - 30px) / 2) !important;
+      border-radius: 50%;
+      
+     
+    }
+  }
+}
+.sbc2{
+    
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 8px auto;
+}

@@ -1,0 +1,92 @@
+.abzar {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  .abzar1 {
+    width: 315px;
+    height: 242px;
+    
+    column-gap: 10px;
+  }
+}
+.abzar2 {
+  object-fit: cover;
+  display: block;
+  width: 305px;
+  height: 242px;
+  border-radius: 15px;
+  
+}
+.abzar3{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+    
+    .abzar4{
+        width: 1280px;
+        height: 111px;
+        background-color:lightgray;
+        margin: 10px auto;
+        border-radius: 10px;
+        display: flex;
+    }
+}
+.abzar8{
+    
+    width: 66px;
+    height: 62px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+.abzar9{
+    display: block;
+    width: 250px;
+    height: 28px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+.abzar5{
+    width: 115px;
+    height: 30px;
+    background-color: green;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 25px;
+    color: white;
+    
+    font-family: yekan;
+    text-align: center;
+    line-height: 30px;
+}
+.abzar6{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+.abzar10{
+    width: 100px;
+    height:111px;
+}
+.abzar7{
+    width: 150px;
+    height: 55px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-right: 5px;
+    font-family: yekan;
+    color: green;
+    text-align: center;
+    line-height: 55px;
+}
+.abzar11{
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: 10px auto;
+}

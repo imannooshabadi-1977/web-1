@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  width: 100%;
+  height: 40px;
+  position: relative;
+
+
+  .menu-center {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    .sub-menu {
+      width: 154px;
+      height: 100%;
+
+      display: flex;
+      &:hover .menu-items {
+        display: block !important;
+      }
+
+      .l6 {
+        display: flex;
+        text-decoration: none;
+
+        .p7 {
+          width: 20px;
+          height: 20px;
+          display: block;
+          margin-top: 13px;
+        }
+        .t4 {
+          font-family: yekan;
+          line-height: 40px;
+          font-size: 15px;
+          color: rgb(99, 95, 95);
+        }
+      }
+    }
+    .sub-menu1 {
+      width: 203px;
+      height: 100%;
+
+      display: flex;
+      .l6 {
+        display: flex;
+        text-decoration: none;
+
+        .p8 {
+          width: 15px;
+          height: 15px;
+          margin-top: 13px;
+          margin-right: 5px;
+        }
+        .t5 {
+          font-family: yekan;
+          line-height: 40px;
+          font-size: 12px;
+          color: rgb(139, 127, 127);
+          margin-right: 8px;
+        }
+      }
+    }
+
+    .empty {
+      width: 1100px;
+      height: 100%;
+    }
+    .select-city {
+      width: 170px;
+      height: 100%;
+      position: relative;
+      display: flex;
+
+      .city-select {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(4, 4, 44, 0.699);
+        top: 40px;
+        right: 10px;
+        display: none;
+        color: white;
+        border-radius: 5px;
+        font-family: yekan;
+        line-height: 40px;
+        font-size: 13px;
+        text-align: center;
+        z-index: 2;
+      }
+      &:hover .city-select {
+        display: block;
+      }
+      .p9 {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+      }
+      .l7 {
+        text-decoration: none;
+        .t6 {
+          font-family: yekan;
+          line-height: 40px;
+          font-size: 12px;
+          color: rgb(139, 127, 127);
+          margin-right: 3px;
+        }
+      }
+    }
+  }
+}
+
+.s3 {
+  width: 1px;
+  height: 25px;
+  background-color: lightgray;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+/*دستورات دسته بندی کالا*/
+.menu-items {
+  width: 1000px;
+  height: 80vh;
+
+  border-radius: 5px;
+  position: absolute;
+  display: none;
+  z-index: 1000;
+  top: 40px;
+  .menu-items-right {
+    width: 20%;
+    height: 100%;
+    background-color: #f5f5f5;
+    overflow: auto;
+    direction: ltr;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+
+    .items1 {
+      width: 100%;
+      height: 40px;
+      direction: rtl;
+      &:hover .itemss {
+        display: block !important;
+      }
+
+      .items-a {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        display: flex;
+        &:hover {
+          background-color: white;
+          border: 1px solid lightgrey;
+          border-radius: 5px;
+        }
+
+        .p10 {
+          margin-right: 5px;
+          width: 18px;
+          height: 18px;
+          margin-top: 10px;
+        }
+        .t7 {
+          font-family: yekan;
+          font-size: 12px;
+          color: #2b2b2b;
+          line-height: 40px;
+          margin-right: 10px;
+          &:hover {
+            color: #029a49;
+          }
+        }
+      }
+    }
+    .itemss {
+      width: 80%;
+      height: 100%;
+      display: none !important;
+      position: absolute;
+      right: 200px;
+      bottom: -3.5px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+
+      .item-b {
+        text-decoration: none;
+        display: flex;
+        &:hover .t8 {
+          color: #029a49;
+        }
+
+        .t10 {
+          margin-right: 15px;
+          margin-top: 17px;
+          font-family: yekan;
+          font-size: 13px;
+          color: #29a0be;
+        }
+        .t8 {
+          margin-right: 15px;
+          margin-top: 17px;
+          font-family: yekan;
+          font-size: 13px;
+          color: #2b2b2b;
+        }
+        .p11 {
+          margin-right: 10px;
+          margin-top: 15px;
+        }
+      }
+      .horizontal {
+        width: 100%;
+        height: 6%;
+        display: flex;
+        z-index: 1;
+        position: relative;
+      }
+    }
+  }
+}
+
+.block {
+  display: block !important;
+}
+.s4 {
+  width: 1px;
+  height: 20px;
+  background-color: #029a49;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.l8 {
+  text-decoration: none;
+  display: block;
+}
+.t9 {
+  font-family: yekan;
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2b2b2b;
+  line-height: 40px;
+}
+
+.horizontal-b {
+  width: 100%;
+  height: 6%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  position: relative;
+}

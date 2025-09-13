@@ -1,0 +1,111 @@
+.fixed {
+  width: 52px;
+  height: 52px;
+  background-color: green;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  align-content: center;
+  cursor: pointer;
+  .fixed1 {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
+.fixed2 {
+  width: 360px;
+  height: 600px;
+  background-color: white;
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  border-radius: 15px;
+  z-index: 2000;
+  border: 1px solid green;
+  display: none;
+  h3 {
+    font-family: yekan;
+    margin: 20px 10px;
+  }
+  p {
+    font-family: yekan;
+    margin: 10px;
+  }
+}
+.fixed5 {
+  width: 360px;
+  height: 55px;
+  background-color: green;
+  display: flex;
+  border-radius: 15px 15px 0 0;
+  .fixed3 {
+    width: 80%;
+    height: 100%;
+
+    color: white;
+    font-family: yekan;
+    font-size: 20px;
+    line-height: 55px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .fixed4 {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+.fixed6 {
+  width: 340px;
+  height: 70px;
+  row-gap: 10px;
+
+  margin: 10px auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.fixed7 {
+  width: 340px;
+  height: 135px;
+
+  margin: 10px auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.fixed8 {
+  font-family: yekan;
+  margin: 10px;
+  font-weight: bold;
+}
+.fixed9 {
+  width: 125px;
+  height: 50px;
+  background-color: green;
+  border-radius: 25px;
+  color: white;
+  font-family: yekan;
+  line-height: 50px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+#show:checked ~ .fixed2 {
+  display: block !important;
+}
+#close:checked ~ .fixed2 {
+  display: none;
+}
+label[for="close"] {
+  cursor: pointer;
+}
+#show,
+#close {
+  opacity: 0;
+}

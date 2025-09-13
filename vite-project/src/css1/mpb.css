@@ -1,0 +1,71 @@
+.mpb {
+  width: 100%;
+  height: 262px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  .mpb2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    column-gap: 10px;
+
+    .mpb1 {
+      width: 50%;
+      height: 100%;
+      .mpb3 {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+      }
+    }
+  }
+}
+
+.Most-popular-brands {
+  width: 100%;
+  height: 225px;
+  margin-top: 20px;
+
+  
+
+  .mpb4 {
+    width: 70%;
+    height: 100%;
+      border: 1px solid lightgray;
+  border-radius: 15px;
+    margin: 0 auto;
+    .mpb5 {
+      width: 100%;
+      height: 40px;
+      
+      h1 {
+        font-family: yekan;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+      }
+    }
+     .swiper {
+      width: 100%;
+      height: 145px;
+    }
+
+    .swiper-slide {
+      border-left: 1px solid lightgray;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+}
+.mpb7{
+  width: 90px;
+  height:90px;
+  display: block;
+  margin: 0 auto;
+}
